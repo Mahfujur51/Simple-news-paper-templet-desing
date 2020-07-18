@@ -93,8 +93,47 @@ p{
 	line-height: 25px;
 	overflow: hidden;
 }
- img{
-     max-width: 100%;
+img{
+	max-width: 100%;
 	height:170px;
 
+}
+.menu{
+	cursor: pointer;
+	clear: both;
+	padding: 22px;
+	color: white;
+	display: none;
+	background:#00536F;
+}
+/*===============Responsive=====*/
+@media only screen and (max-width: 600px){
+
+.nav{
+		padding: 0;
+	}
+.nav ul{
+	display: none;
+
+	}
+.nav ul li{
+		width: 100%;
+
+	}
+.menu{
+	display: block;
+	text-align:center;
+	font-weight: bold;
+}
+.welcome{
+	width: 100%;
+	float: none;
+}
+.sidebar{
+	width: 100%;
+}
+.grid1,.grid2,.grid3{
+	width: 100%;
+}
+	
 }
