@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+p{
+	line-height: 25px;
+	text-align:justify;
+
+}
+.all{
+	background: #FFF2DF;
+}
+.header{
+	background:#0070A6;
+	min-height: 55px;
+	padding: 33px 5%;
+}
+.header img{
+	float: left;
+	height:50px;
+	width:200px;
+}
+.nav{
+	background-color: #0089CA;
+	min-height: 55px;
+	padding: 0 5%;
+	overflow: hidden;
+}
+.nav ul{
+	padding: 0;
+	margin: 0;
+	height: auto;
+
+}
+.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	height: 60px;
+	text-align: center;
+	
+}
+.nav ul li a{
+	
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	padding: 18px;
+
+}
+.nav ul li a.active, .nav ul li a:hover{
+	background: #009BDF;
+}
+
+.main{
+	min-height: 455px;
+	padding: 0 5%;
+}
+.footer{
+	background:#0070A6;
+	min-height: 55px;
+	padding: 0px 5%;
+	clear: both;
+}
+.footer p{
+	text-align:center;
+	color:white;
+	padding:20px 0px 10px 0px;
+}
+.welcome{
+	width: 70%;
+	padding: 0 5% 5% 0;
+	float: left;
+
+}
+.sidebar{
+	width: 25%;
+	float: left;
+
+}
+.grid1,.grid2{
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+	line-height: 25px;
+	overflow: hidden;
+}
+.grid3{
+	float: left;
+	width: 30%;
+	margin-left: 0;
+	line-height: 25px;
+	overflow: hidden;
+}
+ img{
+     max-width: 100%;
+	height:170px;
+
+}
